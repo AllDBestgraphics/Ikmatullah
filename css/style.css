@@ -685,7 +685,7 @@ button {
 .events_bg {
     width: 100%;
     float: left;
-    background-image: url(../images/service-bg.jpg);
+    background-image: url(../images/mont.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 160px 0px;
@@ -864,23 +864,31 @@ textarea#comment::placeholder {
     width: 150px;
     float: left;
     margin-top: 40px;
+    padding: 14px 0px;
+    font-size: 16px;
+    font-family: 'mont', sans-serif;
+    color: #43A37D;
+    text-align: center;
 }
 
-.send_bt a {
+/* .send_bt a {
     width: 100%;
     float: left;
-    background-color: #43A37D;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #43A37D;
     text-align: center;
     padding: 14px 0px;
     font-size: 16px;
     font-family: 'mont', sans-serif;
+} */
+
+.send_bt :hover {
+    background-color: #43A37D;
+    color: rgb(255, 255, 255);
+    padding: 3px 3px;
+    border-radius: 3px;
 }
 
-.send_bt a:hover {
-    background-color: #ffffff;
-    color: #000;
-}
 
 /* contact section end */
 
@@ -941,8 +949,7 @@ textarea#comment::placeholder {
     color: #000;
     margin: 0px;
     padding-top: 20px;
-    :
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .jonimo_taital_main {
